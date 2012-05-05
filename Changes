@@ -1,0 +1,17 @@
+Revision history for Perl extension AnyEvent::Pg.
+
+0.03  May 05, 2012 (Mischa Spiegelmock)
+        - addition of asynchronous client notifications
+        - interface to LISTEN, UNLISTEN and NOTIFY commands
+
+0.02  Jul 18, 2011
+        - push_query was not triggering database dialog
+        - add debugging support
+        - add cancel_query method
+        - add queue_size method
+        - rename fail method to abort_all
+
+0.01  Wed Jun  1 13:02:52 2011
+	- original version; created by h2xs 1.23 with options
+		-AXn AnyEvent::Pg
+
